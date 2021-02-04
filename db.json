@@ -1,16 +1,402 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Luca",
+      "email": "luca.taylor@example.com",
+      "password": "fields",
+      "favorites": [],
+      "id": 1
+    },
+    {
+      "name": "Ziggy",
+      "email": "ziggy.vandenengel@example.com",
+      "password": "whiteboy",
+      "favorites": [],
+      "id": 2
+    },
+    {
+      "name": "Antonio",
+      "email": "antonio.leon@example.com",
+      "password": "pinnacle",
+      "favorites": [],
+      "id": 3
+    },
+    {
+      "name": "Rosa",
+      "email": "rosa.ford@example.com",
+      "password": "paramedi",
+      "favorites": [],
+      "id": 4
+    },
+    {
+      "name": "Ruben",
+      "email": "ruben.durand@example.com",
+      "password": "salem",
+      "favorites": [],
+      "id": 5
+    },
+    {
+      "name": "Brittany",
+      "email": "brittany.foster@example.com",
+      "password": "smooth",
+      "favorites": [],
+      "id": 6
+    },
+    {
+      "name": "Volkan",
+      "email": "volkan.tazegul@example.com",
+      "password": "shua",
+      "favorites": [],
+      "id": 7
+    },
+    {
+      "name": "Macit",
+      "email": "macit.erbay@example.com",
+      "password": "blue",
+      "favorites": [],
+      "id": 8
+    },
+    {
+      "name": "Brooklyn",
+      "email": "brooklyn.pena@example.com",
+      "password": "bartman",
+      "favorites": [],
+      "id": 9
+    },
+    {
+      "name": "Oscar",
+      "email": "oscar.nielsen@example.com",
+      "password": "shasta",
+      "favorites": [],
+      "id": 10
+    },
+    {
+      "name": "Megan",
+      "email": "megan.clark@example.com",
+      "password": "discover",
+      "favorites": [],
+      "id": 11
+    },
+    {
+      "name": "Axelle",
+      "email": "axelle.adam@example.com",
+      "password": "david",
+      "favorites": [],
+      "id": 12
+    },
+    {
+      "name": "Becky",
+      "email": "becky.larson@example.com",
+      "password": "plymouth",
+      "favorites": [],
+      "id": 13
+    },
+    {
+      "name": "Constance",
+      "email": "constance.rose@example.com",
+      "password": "banane",
+      "favorites": [],
+      "id": 14
+    },
+    {
+      "name": "Meral",
+      "email": "meral.akisik@example.com",
+      "password": "getoff",
+      "favorites": [],
+      "id": 15
+    },
+    {
+      "name": "Toivo",
+      "email": "toivo.mattila@example.com",
+      "password": "shinobi",
+      "favorites": [],
+      "id": 16
+    },
+    {
+      "name": "Ana",
+      "email": "ana.gautier@example.com",
+      "password": "buckshot",
+      "favorites": [],
+      "id": 17
+    },
+    {
+      "name": "Amanda",
+      "email": "amanda.riley@example.com",
+      "password": "bloody",
+      "favorites": [],
+      "id": 18
+    },
+    {
+      "name": "Isla",
+      "email": "isla.rintala@example.com",
+      "password": "mypass",
+      "favorites": [],
+      "id": 19
+    },
+    {
+      "name": "Ires",
+      "email": "ires.golsteijn@example.com",
+      "password": "throat",
+      "favorites": [],
+      "id": 20
+    },
+    {
+      "name": "Maeva",
+      "email": "maeva.chan@example.com",
+      "password": "lickme",
+      "favorites": [],
+      "id": 21
+    },
+    {
+      "name": "Rotraut",
+      "email": "rotraut.clemens@example.com",
+      "password": "juliette",
+      "favorites": [],
+      "id": 22
     }
   ],
-  "comments" : [
+  "recipes": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "title": "Pork Cassoulet",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wxuvuv1511299147.jpg",
+      "calories": 868,
+      "instructions": "Heat oven to 140C/120C fan/gas 1. Put a large ovenproof pan (with a tight-fitting lid) on a high heat. Add your fat and diced meat, cook for a few mins to seal the edges, giving it a quick stir to cook evenly. Reduce the heat to low, add the sliced onion, whole garlic cloves, carrot and fennel seeds, and cook gently to soften the veg for a few mins.\r\nPour over the red wine vinegar, scraping any meaty bits off the bottom of the pan. Add the stock, tomato purée, and half the rosemary and parsley. Bring to the boil and simmer for 10 mins, then season, cover with a lid and put into the oven for 2 hrs, removing the lid for the final hour of cooking. Stir occasionally and add the beans with 30 mins to go.\r\nRemove the pan from the oven and heat the grill. Scatter the top with the remaining herbs and breadcrumbs, drizzle a little oil over the top, and return to the oven for 5-10 mins, until the breadcrumbs are golden. Serve with crusty bread and green veg.",
+      "userId": 1,
+      "videoUrl": "https://www.youtube.com/watch?v=MEdHMTD0VCA",
+      "area": "French",
+      "rating": [],
+      "id": 1
+    },
+    {
+      "title": "Full English Breakfast",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg",
+      "calories": 175,
+      "instructions": "Heat the flat grill plate over a low heat, on top of 2 rings/flames if it fits, and brush sparingly with light olive oil.\r\nCook the sausages first. Add the sausages to the hot grill plate/the coolest part if there is one and allow to cook slowly for about 15-20 minutes, turning occasionally, until golden. After the first 10 minutes, increase the heat to medium before beginning to cook the other ingredients. If you are struggling for space, completely cook the sausages and keep hot on a plate in the oven.\r\nSnip a few small cuts into the fatty edge of the bacon. Place the bacon straight on to the grill plate and fry for 2-4 minutes each side or until your preferred crispiness is reached. Like the sausages, the cooked bacon can be kept hot on a plate in the oven.\r\nFor the mushrooms, brush away any dirt using a pastry brush and trim the stalk level with the mushroom top. Season with salt and pepper and drizzle over a little olive oil. Place stalk-side up on the grill plate and cook for 1-2 minutes before turning and cooking for a further 3-4 minutes. Avoid moving the mushrooms too much while cooking, as this releases the natural juices, making them soggy.\r\nFor the tomatoes, cut the tomatoes across the centre/or in half lengthways if using plum tomatoes , and with a small, sharp knife remove the green 'eye'. Season with salt and pepper and drizzle with a little olive oil. Place cut-side down on the grill plate and cook without moving for 2 minutes. Gently turn over and season again. Cook for a further 2-3 minutes until tender but still holding their shape.\r\nFor the black pudding, cut the black pudding into 3-4 slices and remove the skin. Place on the grill plate and cook for 1½-2 minutes each side until slightly crispy.\r\nFor 'proper' fried bread it's best to cook it in a separate pan. Ideally, use bread that is a couple of days old. Heat a frying pan to a medium heat and cover the base with oil. Add the bread and cook for 2-3 minutes each side until crispy and golden. If the pan becomes too dry, add a little more oil. For a richer flavour, add a knob of butter after you turn the slice.\r\nFor the fried eggs, break the egg straight into the pan with the fried bread and leave for 30 seconds. Add a good knob of butter and lightly splash/baste the egg with the butter when melted. Cook to your preferred stage, season and gently remove with a fish slice.\r\nOnce all the ingredients are cooked, serve on warm plates and enjoy straight away with a good squeeze of tomato ketchup or brown sauce.",
+      "userId": 2,
+      "videoUrl": "https://www.youtube.com/watch?v=FXjYU2Ensck",
+      "area": "British",
+      "rating": [],
+      "id": 2
+    },
+    {
+      "title": "Squash linguine",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wxswxy1511452625.jpg",
+      "calories": 713,
+      "instructions": "Heat oven to 200C/180C fan/gas 6. Put the squash and garlic on a baking tray and drizzle with the olive oil. Roast for 35-40 mins until soft. Season.\r\nCook the pasta according to pack instructions. Drain, reserving the water. Use a stick blender to whizz the squash with 400ml cooking water. Heat some oil in a frying pan, fry the sage until crisp, then drain on kitchen paper. Tip the pasta and sauce into the pan and warm through. Scatter with sage.",
+      "userId": 3,
+      "videoUrl": "https://www.youtube.com/watch?v=xHZ-PoGwTLQ",
+      "area": "Italian",
+      "rating": [],
+      "id": 3
+    },
+    {
+      "title": "Jam Roly-Poly",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/ysqupp1511640538.jpg",
+      "calories": 637,
+      "instructions": "Put a deep roasting tin onto the bottom shelf of the oven, and make sure that there’s another shelf directly above it. Pull the roasting tin out on its shelf, fill two-thirds with boiling water from the kettle, then carefully slide it back in. Heat oven to 180C/160C fan/gas 4. Tear off a large sheet of foil and greaseproof paper (about 30 x 40cm). Sit the greaseproof on top of the foil and butter it.\r\nTip butter, flour and vanilla seeds into a food processor; pulse until the butter has disappeared. Tip into a mixing bowl. Stir through the suet, pour in the milk and work together with a cutlery knife until you get a sticky dough. You may need a drop more milk, depending on your flour.\r\nTip the dough out onto a floured surface, quickly pat together to smooth, then roll out to a square roughly 25 x 25cm. Spread the jam all over, leaving a gap along one edge, then roll up from the opposite edge. Pinch the jam-free edge into the dough where it meets, and pinch the ends roughly, too. Carefully lift onto the greased paper, join-side down (you might find a flat baking sheet helpful for this), loosely bring up the paper and foil around it, then scrunch together along the edges and ends to seal. The roly-poly will puff quite a bit during cooking so don’t wrap it tightly. Lift the parcel directly onto the rack above the tin and cook for 1 hr.\r\nLet the pudding sit for 5 mins before unwrapping, then carefully open the foil and paper, and thickly slice to serve.",
+      "userId": 4,
+      "videoUrl": "https://www.youtube.com/watch?v=5ZYWVQ8imVA",
+      "area": "British",
+      "rating": [],
+      "id": 4
+    },
+    {
+      "title": "Dal fry",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
+      "calories": 1153,
+      "instructions": "Wash and soak toor dal in approx. 3 cups of water, for at least one hours. Dal will be double in volume after soaking. Drain the water.\r\nCook dal with 2-1/2 cups water and add salt, turmeric, on medium high heat, until soft in texture (approximately 30 mins) it should be like thick soup.\r\nIn a frying pan, heat the ghee. Add cumin seeds, and mustard seeds. After the seeds crack, add bay leaves, green chili, ginger and chili powder. Stir for a few seconds.\r\nAdd tomatoes, salt and sugar stir and cook until tomatoes are tender and mushy.\r\nAdd cilantro and garam masala cook for about one minute.\r\nPour the seasoning over dal mix it well and cook for another minute.\r\nServe with Naan.",
+      "userId": 5,
+      "videoUrl": "https://www.youtube.com/watch?v=J4D855Q9-jg",
+      "area": "Indian",
+      "rating": [],
+      "id": 5
+    },
+    {
+      "title": "Pork Cassoulet",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wxuvuv1511299147.jpg",
+      "calories": 39,
+      "instructions": "Heat oven to 140C/120C fan/gas 1. Put a large ovenproof pan (with a tight-fitting lid) on a high heat. Add your fat and diced meat, cook for a few mins to seal the edges, giving it a quick stir to cook evenly. Reduce the heat to low, add the sliced onion, whole garlic cloves, carrot and fennel seeds, and cook gently to soften the veg for a few mins.\r\nPour over the red wine vinegar, scraping any meaty bits off the bottom of the pan. Add the stock, tomato purée, and half the rosemary and parsley. Bring to the boil and simmer for 10 mins, then season, cover with a lid and put into the oven for 2 hrs, removing the lid for the final hour of cooking. Stir occasionally and add the beans with 30 mins to go.\r\nRemove the pan from the oven and heat the grill. Scatter the top with the remaining herbs and breadcrumbs, drizzle a little oil over the top, and return to the oven for 5-10 mins, until the breadcrumbs are golden. Serve with crusty bread and green veg.",
+      "userId": 6,
+      "videoUrl": "https://www.youtube.com/watch?v=MEdHMTD0VCA",
+      "area": "French",
+      "rating": [],
+      "id": 6
+    },
+    {
+      "title": "Spinach & Ricotta Cannelloni",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wspuvp1511303478.jpg",
+      "calories": 1431,
+      "instructions": "First make the tomato sauce. Heat the oil in a large pan and fry the garlic for 1 min. Add the sugar, vinegar, tomatoes and some seasoning and simmer for 20 mins, stirring occasionally, until thick. Add the basil and divide the sauce between 2 or more shallow ovenproof dishes (see Tips for freezing, below). Set aside. Make a sauce by beating the mascarpone with the milk until smooth, season, then set aside.\r\n\r\nPut the spinach in a large colander and pour over a kettle of boiling water to wilt it (you may need to do this in batches). When cool enough to handle squeeze out the excess water. Roughly chop the spinach and mix in a large bowl with 100g Parmesan and ricotta. Season well with salt, pepper and the nutmeg.\r\n\r\nHeat oven to 200C/180C fan/gas 6. Using a piping bag or plastic food bag with the corner snipped off, squeeze the filling into the cannelloni tubes. Lay the tubes, side by side, on top of the tomato sauce and spoon over the mascarpone sauce. Top with Parmesan and mozzarella. You can now freeze the cannelloni, uncooked, or you can cook it first and then freeze. Bake for 30-35 mins until golden and bubbling. Remove from oven and let stand for 5 mins before serving.",
+      "userId": 7,
+      "videoUrl": "https://www.youtube.com/watch?v=rYGaEJjyLQA",
+      "area": "Italian",
+      "rating": [],
+      "id": 7
+    },
+    {
+      "title": "Chicken Alfredo Primavera",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg",
+      "calories": 345,
+      "instructions": "Heat 1 tablespoon of butter and 2 tablespoons of olive oil in a large skillet over medium-high heat. Season both sides of each chicken breast with seasoned salt and a pinch of pepper. Add the chicken to the skillet and cook for 5-7 minutes on each side, or until cooked through.  While the chicken is cooking, bring a large pot of water to a boil. Season the boiling water with a few generous pinches of kosher salt. Add the pasta and give it a stir. Cook, stirring occasionally, until al dente, about 12 minutes. Reserve 1/2 cup of  pasta water before draining the pasta.  Remove the chicken from the pan and transfer it to a cutting board; allow it to rest. Turn the heat down to medium and dd the remaining 1 tablespoon of butter and olive oil to the same pan you used to cook the chicken. Add the veggies (minus the garlic) and red pepper flakes to the pan and stir to coat with the oil and butter (refrain from seasoning with salt until the veggies are finished browning). Cook, stirring often, until the veggies are tender, about 5 minutes. Add the garlic and a generous pinch of salt and pepper to the pan and cook for 1 minute.  Deglaze the pan with the white wine. Continue to cook until the wine has reduced by half, about 3 minutes. Stir in the milk, heavy cream, and reserved pasta water. Bring the mixture to a gentle boil and allow to simmer and reduce for 2-3 minutes. Turn off the heat and add the Parmesan cheese and cooked pasta. Season with salt and pepper to taste. Garnish with Parmesan cheese and chopped parsley, if desired. ",
+      "userId": 8,
+      "videoUrl": "https://www.youtube.com/watch?v=qCIbq8HywpQ",
+      "area": "Italian",
+      "rating": [],
+      "id": 8
+    },
+    {
+      "title": "Gołąbki (cabbage roll)",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/q8sp3j1593349686.jpg",
+      "calories": 995,
+      "instructions": "Bring a large pot of lightly salted water to a boil. Place cabbage head into water, cover pot, and cook until cabbage leaves are slightly softened enough to remove from head, 3 minutes. Remove cabbage from pot and let cabbage sit until leaves are cool enough to handle, about 10 minutes.\r\n\r\nRemove 18 whole leaves from the cabbage head, cutting out any thick tough center ribs. Set whole leaves aside. Chop the remainder of the cabbage head and spread it in the bottom of a casserole dish.\r\n\r\nMelt butter in a large skillet over medium-high heat. Cook and stir onion in hot butter until tender, 5 to 10 minutes. Cool.\r\n\r\nStir onion, beef, pork, rice, garlic, 1 teaspoon salt, and 1/4 teaspoon pepper together in a large bowl.\r\n\r\nPreheat oven to 350 degrees F (175 degrees C).\r\n\r\nPlace about 1/2 cup beef mixture on a cabbage leaf. Roll cabbage around beef mixture, tucking in sides to create an envelope around the meat. Repeat with remaining leaves and meat mixture. Place cabbage rolls in a layer atop the chopped cabbage in the casserole dish; season rolls with salt and black pepper.\r\n\r\nWhisk tomato soup, tomato juice, and ketchup together in a bowl. Pour tomato soup mixture over cabbage rolls and cover dish wish aluminum foil.\r\n\r\nBake in the preheated oven until cabbage is tender and meat is cooked through, about 1 hour.",
+      "userId": 9,
+      "videoUrl": "https://www.youtube.com/watch?v=rBrTkDdoPYg",
+      "area": "Polish",
+      "rating": [],
+      "id": 9
+    },
+    {
+      "title": "Jam Roly-Poly",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/ysqupp1511640538.jpg",
+      "calories": 881,
+      "instructions": "Put a deep roasting tin onto the bottom shelf of the oven, and make sure that there’s another shelf directly above it. Pull the roasting tin out on its shelf, fill two-thirds with boiling water from the kettle, then carefully slide it back in. Heat oven to 180C/160C fan/gas 4. Tear off a large sheet of foil and greaseproof paper (about 30 x 40cm). Sit the greaseproof on top of the foil and butter it.\r\nTip butter, flour and vanilla seeds into a food processor; pulse until the butter has disappeared. Tip into a mixing bowl. Stir through the suet, pour in the milk and work together with a cutlery knife until you get a sticky dough. You may need a drop more milk, depending on your flour.\r\nTip the dough out onto a floured surface, quickly pat together to smooth, then roll out to a square roughly 25 x 25cm. Spread the jam all over, leaving a gap along one edge, then roll up from the opposite edge. Pinch the jam-free edge into the dough where it meets, and pinch the ends roughly, too. Carefully lift onto the greased paper, join-side down (you might find a flat baking sheet helpful for this), loosely bring up the paper and foil around it, then scrunch together along the edges and ends to seal. The roly-poly will puff quite a bit during cooking so don’t wrap it tightly. Lift the parcel directly onto the rack above the tin and cook for 1 hr.\r\nLet the pudding sit for 5 mins before unwrapping, then carefully open the foil and paper, and thickly slice to serve.",
+      "userId": 10,
+      "videoUrl": "https://www.youtube.com/watch?v=5ZYWVQ8imVA",
+      "area": "British",
+      "rating": [],
+      "id": 10
+    },
+    {
+      "title": "Massaman Beef curry",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/tvttqv1504640475.jpg",
+      "calories": 1064,
+      "instructions": "Heat oven to 200C/180C fan/gas 6, then roast the peanuts on a baking tray for 5 mins until golden brown. When cool enough to handle, roughly chop. Reduce oven to 180C/160C fan/gas 4.\r\nHeat 2 tbsp coconut cream in a large casserole dish with a lid. Add the curry paste and fry for 1 min, then stir in the beef and fry until well coated and sealed. Stir in the rest of the coconut with half a can of water, the potatoes, onion, lime leaves, cinnamon, tamarind, sugar, fish sauce and most of the peanuts. Bring to a simmer, then cover and cook for 2 hrs in the oven until the beef is tender.\r\nSprinkle with sliced chilli and the remaining peanuts, then serve straight from the dish with jasmine rice.",
+      "userId": 11,
+      "videoUrl": "https://www.youtube.com/watch?v=mVxgZSCU9_g",
+      "area": "Thai",
+      "rating": [],
+      "id": 11
+    },
+    {
+      "title": "Lamb Tzatziki Burgers",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/k420tj1585565244.jpg",
+      "calories": 1158,
+      "instructions": "Tip the bulghar into a pan, cover with water and boil for 10 mins. Drain really well in a sieve, pressing out any excess water.\r\n\r\nTo make the tzatziki, squeeze and discard the juice from the cucumber, then mix into the yogurt with the chopped mint and a little salt.\r\n\r\nWork the bulghar into the lamb with the spices, garlic (if using) and seasoning, then shape into 4 burgers. Brush with a little oil and fry or barbecue for about 5 mins each side until cooked all the way through. Serve in the buns (toasted if you like) with the tzatziki, tomatoes, onion and a few mint leaves.",
+      "userId": 12,
+      "videoUrl": "https://www.youtube.com/watch?v=s7_TF4ZHjPc",
+      "area": "Greek",
+      "rating": [],
+      "id": 12
+    },
+    {
+      "title": "Lasagna Sandwiches",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+      "calories": 904,
+      "instructions": "1. In a small bowl, combine the first four ingredients; spread on four slices of bread. Layer with bacon, tomato and cheese; top with remaining bread.\r\n\r\n2. In a large skillet or griddle, melt 2 tablespoons butter. Toast sandwiches until lightly browned on both sides and cheese is melted, adding butter if necessary.\r\n\r\nNutrition Facts\r\n1 sandwich: 445 calories, 24g fat (12g saturated fat), 66mg cholesterol, 1094mg sodium, 35g carbohydrate (3g sugars, 2g fiber), 21g protein.",
+      "userId": 13,
+      "videoUrl": "",
+      "area": "American",
+      "rating": [],
+      "id": 13
+    },
+    {
+      "title": "Peanut Butter Cheesecake",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/qtuuys1511387068.jpg",
+      "calories": 729,
+      "instructions": "Oil and line a 20cm round loose- bottomed cake tin with cling film, making it as smooth as possible. Melt the butter in a pan. Crush the biscuits by bashing them in a bag with a rolling pin, then stir them into the butter until very well coated. Press the mixture firmly into the base of the tin and chill.\r\nSoak the gelatine in water while you make the filling. Tip the ricotta into a bowl, then beat in the peanut butter and syrup. Ricotta has a slightly grainy texture so blitz until smooth with a stick blender for a smoother texture if you prefer.\r\nTake the soaked gelatine from the water and squeeze dry. Put it into a pan with the milk and heat very gently until the gelatine dissolves. Beat into the peanut mixture, then tip onto the biscuit base. Chill until set.\r\nTo freeze, leave in the tin and as soon as it is solid, cover the surface with cling film, then wrap the tin with cling film and foil.\r\nTo defrost, thaw in the fridge overnight.\r\nTo serve, carefully remove from the tin. Whisk the cream with the sugar until it holds its shape, then spread on top of the cheesecake and scatter with the peanut brittle.",
+      "userId": 14,
+      "videoUrl": "https://www.youtube.com/watch?v=QSTsturcyL0",
+      "area": "American",
+      "rating": [],
+      "id": 14
+    },
+    {
+      "title": "Breakfast Potatoes",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+      "calories": 142,
+      "instructions": "Before you do anything, freeze your bacon slices that way when you're ready to prep, it'll be so much easier to chop!\r\nWash the potatoes and cut medium dice into square pieces. To prevent any browning, place the already cut potatoes in a bowl filled with water.\r\nIn the meantime, heat 1-2 tablespoons of oil in a large skillet over medium-high heat. Tilt the skillet so the oil spreads evenly.\r\nOnce the oil is hot, drain the potatoes and add to the skillet. Season with salt, pepper, and Old Bay as needed.\r\nCook for 10 minutes, stirring the potatoes often, until brown. If needed, add a tablespoon more of oil.\r\nChop up the bacon and add to the potatoes. The bacon will start to render and the fat will begin to further cook the potatoes. Toss it up a bit! The bacon will take 5-6 minutes to crisp.\r\nOnce the bacon is cooked, reduce the heat to medium-low, add the minced garlic and toss. Season once more. Add dried or fresh parsley. Control heat as needed.\r\nLet the garlic cook until fragrant, about one minute.\r\nJust before serving, drizzle over the maple syrup and toss. Let that cook another minute, giving the potatoes a caramelized effect.\r\nServe in a warm bowl with a sunny side up egg!",
+      "userId": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=BoD0TIO9nE4",
+      "area": "Canadian",
+      "rating": [],
+      "id": 15
+    },
+    {
+      "title": "Shawarma",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/kcv6hj1598733479.jpg",
+      "calories": 1298,
+      "instructions": "Combine the marinade ingredients in a large ziplock bag (or bowl).\r\nAdd the chicken and use your hands to make sure each piece is coated. If using a ziplock bag, I find it convenient to close the bag then massage the bag to disperse the rub all over each chicken piece.\r\nMarinate overnight or up to 24 hours.\r\nCombine the Yoghurt Sauce ingredients in a bowl and mix. Cover and put in the fridge until required (it will last for 3 days in the fridge).\r\nHeat grill/BBQ (or large heavy based pan on stove) on medium high. You should not need to oil it because the marinade has oil in it and also thigh fillets have fat. But if you are worried then oil your hotplate/grill. (See notes for baking)\r\nPlace chicken on the grill and cook the first side for 4 to 5 minutes until nicely charred, then turn and cook the other side for 3 to 4 minutes (the 2nd side takes less time).\r\nRemove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.\r\nTO SERVE\r\nSlice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce.\r\nTo make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!",
+      "userId": 16,
+      "videoUrl": "https://www.youtube.com/watch?v=3lxUIeKDgic",
+      "area": "Egyptian",
+      "rating": [],
+      "id": 16
+    },
+    {
+      "title": "Sugar Pie",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/yrstur1511816601.jpg",
+      "calories": 1302,
+      "instructions": "Preheat oven to 350 degrees F (175 degrees C). Grease a 9-inch pie dish.\r\nPlace the brown sugar and butter in a mixing bowl, and beat them together with an electric mixer until creamy and very well combined, without lumps. Beat in eggs, one at a time, incorporating the first egg before adding the next one. Add the vanilla extract and salt; beat the flour in, a little at a time, and then the milk, making a creamy batter. Pour the batter into the prepared pie dish.\r\nBake in the preheated oven for 35 minutes; remove pie, and cover the rim with aluminum foil to prevent burning. Return to oven, and bake until the middle sets and the top forms a crusty layer, about 15 more minutes. Let the pie cool to room temperature, then refrigerate for at least 1 hour before serving.",
+      "userId": 17,
+      "videoUrl": "https://www.youtube.com/watch?v=uVQ66jiL-Dc",
+      "area": "Canadian",
+      "rating": [],
+      "id": 17
+    },
+    {
+      "title": "French Onion Soup",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/xvrrux1511783685.jpg",
+      "calories": 1011,
+      "instructions": "Melt the butter with the oil in a large heavy-based pan. Add the onions and fry with the lid on for 10 mins until soft. Sprinkle in the sugar and cook for 20 mins more, stirring frequently, until caramelised. The onions should be really golden, full of flavour and soft when pinched between your fingers. Take care towards the end to ensure that they don’t burn.\r\nAdd the garlic for the final few mins of the onions’ cooking time, then sprinkle in the flour and stir well. Increase the heat and keep stirring as you gradually add the wine, followed by the hot stock. Cover and simmer for 15-20 mins.\r\nTo serve, turn on the grill, and toast the bread. Ladle the soup into heatproof bowls. Put a slice or two of toast on top of the bowls of soup, and pile on the cheese. Grill until melted. Alternatively, you can complete the toasts under the grill, then serve them on top.",
+      "userId": 18,
+      "videoUrl": "https://www.youtube.com/watch?v=-DLDMQucqDI",
+      "area": "French",
+      "rating": [],
+      "id": 18
+    },
+    {
+      "title": "Osso Buco alla Milanese",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wwuqvt1487345467.jpg",
+      "calories": 679,
+      "instructions": "Heat the oven to 300 degrees.\r\nDredging the shanks: pour the flour into a shallow dish (a pie plate works nicely). Season the veal shanks on all sides with salt and pepper. One at a time, roll the shanks around in the flour coat, and shake and pat the shank to remove any excuses flour. Discard the remaining flour.\r\nBrowning the shanks: put the oil and 1 tablespoon of the butter in a wide Dutch oven or heavy braising pot (6 to 7 quart) and heat over medium-high heat. When the butter has melted and the oil is shimmering, lower the shanks into the pot, flat side down; if the shanks won’t fit without touching one another, do this in batches. Brown the shanks, turning once with tongs, until both flat sides are well caramelized, about 5 minutes per side. If the butter-oil mixture starts to burn, lower the heat just a bit. Transfer the shanks to a large platter or tray and set aside.\r\nThe aromatics: pour off and discard the fat from the pot. Wipe out any burnt bits with a damp paper towel, being careful not to remove any delicious little caramelized bits. Ad the remaining 2 tablespoons butter to the pot and melt it over medium heat. When the butter has stopped foaming, add the onion, carrot, celery, and fennel. Season with salt and pepper, stir, and cook the vegetables until they begin to soften but do not brown, about 6 minutes. Stir in the garlic, orange zest, marjoram, and bay leaf, and stew for another minute or two.\r\nThe braising liquid: add the wine, increase the heat to high, and bring to a boil. Boil, stirring occasionally, to reduce the wine by about half, 5 minutes. Add the stock and tomatoes, with their juice, and boil again to reduce the liquid to about 1 cup total, about 10 minutes.\r\nThe braise: Place the shanks in the pot so that they are sitting with the exposed bone facing up, and pour over any juices that accumulated as they sat. Cover with parchment paper, pressing down so the parchment nearly touches the veal and the edges hang over the sides of the pot by about an inch. Cover tightly with the lid, and slide into the lower part of the oven to braise at a gentle simmer. Check the pot after the first 15 minutes, and if the liquid is simmering too aggressively, lower the oven heat by 10 or 15 degrees. Continue braising, turning the shanks and spooning some pan juices over the top after the first 40 minutes, until the meat is completely tender and pulling away from the bone, about 2 hours.\r\nThe gremolata: While the shanks are braising, stir together the garlic, parsley, and lemon zest in a small bowl. Cover with plastic wrap and set aside in a cool place (or the refrigerator, if your kitchen is very warm.)\r\nThe finish: When the veal is fork-tender and falling away from the bone, remove the lid and sprinkle over half of the gremolata. Return the veal to the oven, uncovered, for another 15 minutes to caramelize it some.\r\nUsing a slotted spatula or spoon, carefully lift the shanks from the braising liquid, doing your best to keep them intact. The shanks will be very tender and threatening to fall into pieces, and the marrow will be wobbly inside the bones, so this can be a bit tricky. But if they do break apart, don’t worry, the flavor won’t suffer at all. Arrange the shanks on a serving platter or other large plate, without stacking, and cover with foil to keep warm.\r\nFinishing the sauce: Set the braising pot on top of the stove and evaluate the sauce: if there is a visible layer of fat floating on the surface, use a large spoon to skim it off and discard it. Taste the sauce for concentration of flavor. If it tastes a bit weak or flat, bring it to a boil over high heat, and boil to reduce the volume and intensify the flavor for 5 to 10 minutes. Taste again for salt and pepper. If the sauce wants more zip, stir in a teaspoon or two of the remaining gremolata.\r\nPortioning the veal shanks: if the shanks are reasonably sized, serve one per person. If the shanks are gargantuan or you’re dealing with modest appetites, pull apart the larger shanks, separating them at their natural seams, and serve smaller amounts. Be sure to give the marrow bones to whomever prizes them most.\r\nServing: Arrange the veal shanks on warm dinner plates accompanied by the risotto, if serving. Just before carrying the plates to the table, sprinkle on the remaining gremolata and then spoon over a generous amount of sauce – the contact with the hot liquid will aromatize the gremolata and perk up everyone’s appetite with the whiff of garlic and lemon.",
+      "userId": 19,
+      "videoUrl": "https://www.youtube.com/watch?v=9GUTC2Qwrf0",
+      "area": "Italian",
+      "rating": [],
+      "id": 19
+    },
+    {
+      "title": "Venetian Duck Ragu",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/qvrwpt1511181864.jpg",
+      "calories": 475,
+      "instructions": "Heat the oil in a large pan. Add the duck legs and brown on all sides for about 10 mins. Remove to a plate and set aside. Add the onions to the pan and cook for 5 mins until softened. Add the garlic and cook for a further 1 min, then stir in the cinnamon and flour and cook for a further min. Return the duck to the pan, add the wine, tomatoes, stock, herbs, sugar and seasoning. Bring to a simmer, then lower the heat, cover with a lid and cook for 2 hrs, stirring every now and then.\r\nCarefully lift the duck legs out of the sauce and place on a plate – they will be very tender so try not to lose any of the meat. Pull off and discard the fat, then shred the meat with 2 forks and discard the bones. Add the meat back to the sauce with the milk and simmer, uncovered, for a further 10-15 mins while you cook the pasta.\r\nCook the pasta following pack instructions, then drain, reserving a cup of the pasta water, and add the pasta to the ragu. Stir to coat all the pasta in the sauce and cook for 1 min more, adding a splash of cooking liquid if it looks dry. Serve with grated Parmesan, if you like.",
+      "userId": 20,
+      "videoUrl": "https://www.youtube.com/watch?v=oWQDVgjB_Lw",
+      "area": "Italian",
+      "rating": [],
+      "id": 20
+    },
+    {
+      "title": "Coq au vin",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/qstyvs1505931190.jpg",
+      "calories": 195,
+      "instructions": "Heat 1 tbsp of the oil in a large, heavy-based saucepan or flameproof dish. Tip in the bacon and fry until crisp. Remove and drain on kitchen paper. Add the shallots to the pan and fry, stirring or shaking the pan often, for 5-8 mins until well browned all over. Remove and set aside with the bacon.\r\nPat the chicken pieces dry with kitchen paper. Pour the remaining oil into the pan, then fry half the chicken pieces, turning regularly, for 5-8 mins until well browned. Remove, then repeat with the remaining chicken. Remove and set aside.\r\nScatter in the garlic and fry briefly, then, with the heat medium-high, pour in the brandy or Cognac, stirring the bottom of the pan to deglaze. The alcohol should sizzle and start to evaporate so there is not much left.\r\nReturn the chicken legs and thighs to the pan along with any juices, then pour in a little of the wine, stirring the bottom of the pan again. Stir in the rest of the wine, the stock and tomato purée, drop in the bouquet garni, season with pepper and a pinch of salt, then return the bacon and shallots to the pan. Cover, lower the heat to a gentle simmer, add the chicken breasts and cook for 50 mins-1hr.\r\nJust before ready to serve, heat the oil for the mushrooms in a large non-stick frying pan. Add the mushrooms and fry over a high heat for a few mins until golden. Remove and keep warm.\r\nLift the chicken, shallots and bacon from the pan and transfer to a warmed serving dish. Remove the bouquet garni. To make the thickener, mix the flour, olive oil and butter in a small bowl using the back of a teaspoon. Bring the wine mixture to a gentle boil, then gradually drop in small pieces of the thickener, whisking each piece in using a wire whisk. Simmer for 1-2 mins. Scatter the mushrooms over the chicken, then pour over the wine sauce. Garnish with chopped parsley.",
+      "userId": 21,
+      "videoUrl": "https://www.youtube.com/watch?v=_ise46LADBs",
+      "area": "French",
+      "rating": [],
+      "id": 21
+    },
+    {
+      "title": "Cream Cheese Tart",
+      "imageUrl": "https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg",
+      "calories": 141,
+      "instructions": "Crust: make a dough from 250g flour (I like mixing different flours like plain and wholegrain spelt flour), 125g butter, 1 egg and a pinch of salt, press it into a tart form and place it in the fridge. Filling: stir 300g cream cheese and 100ml milk until smooth, add in 3 eggs, 100g grated parmesan cheese and season with salt, pepper and nutmeg. Take the crust out of the fridge and prick the bottom with a fork. Pour in the filling and bake at 175 degrees C for about 25 minutes. Cover the tart with some aluminium foil after half the time. In the mean time, slice about 350g mini tomatoes. In a small pan heat 3tbsp olive oil, 3tbsp white vinegar, 1 tbsp honey, salt and pepper and combine well. Pour over the tomato slices and mix well. With a spoon, place the tomato slices on the tart, avoiding too much liquid on it. Decorate with basil leaves and enjoy",
+      "userId": 22,
+      "videoUrl": "https://www.youtube.com/watch?v=UhQPwO4uymo",
+      "area": "Unknown",
+      "rating": [],
+      "id": 22
     }
   ]
 }
